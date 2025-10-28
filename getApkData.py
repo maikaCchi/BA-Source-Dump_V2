@@ -28,9 +28,9 @@ if __name__ == "__main__":
         pkg = "com.YostarJP.BlueArchive"
 
     # Download the required dumper
-    il2cppInspectorReduxUrl = "https://nightly.link/LukeFZ/Il2CppInspectorRedux/workflows/build/new-ui/Il2CppInspectorRedux.CLI-linux-x64.zip"
+    il2cppInspectorReduxUrl = "https://nightly.link/ArkanDash/Il2CppInspectorRedux/workflows/build/master/Il2CppInspectorRedux.CLI-linux-x64.zip"
     if os_system == "Windows":
-        il2cppInspectorReduxUrl = "https://nightly.link/LukeFZ/Il2CppInspectorRedux/workflows/build/new-ui/Il2CppInspectorRedux.CLI-win-x64.zip"
+        il2cppInspectorReduxUrl = "https://nightly.link/ArkanDash/Il2CppInspectorRedux/workflows/build/master/Il2CppInspectorRedux.CLI-win-x64.zip"
     il2cppDownloader = FileDownloader(il2cppInspectorReduxUrl, lib_dir, "il2cppinspector.zip")
     il2cppDownloader.download()
     FileExtractor(il2cppDownloader.local_filepath, lib_dir, "").extract_il2cppData()
