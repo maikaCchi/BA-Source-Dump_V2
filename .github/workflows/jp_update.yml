@@ -54,7 +54,7 @@ jobs:
         run: python getTools.py
 
       - name: Get APK & Dumper
-        run: python getAndroidGameData.py --region jp
+        run: python getAndroidGameData.py --client jp
         
       - name: Run Dumper
         run: python getJPVersion.py
