@@ -6201,10 +6201,10 @@ table CharacterSkillListExcel {
 }
 
 table CharacterStatExcelTable {
-	DataList: [O2c7ab1eb9ea714c6d1387616e9a149130e9b3e1ca5241a294c4a30fe84f17397]; // index 0x1
+	DataList: [O2c681c5cf31cdb37e646fe0b4d2519648e45f5c47273b8d0493072224f955e06]; // index 0x1
 }
 
-table O2c7ab1eb9ea714c6d1387616e9a149130e9b3e1ca5241a294c4a30fe84f17397 {
+table O2c681c5cf31cdb37e646fe0b4d2519648e45f5c47273b8d0493072224f955e06 {
 	// No Create method
 }
 
