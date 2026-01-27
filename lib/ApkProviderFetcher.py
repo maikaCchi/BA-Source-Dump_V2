@@ -16,8 +16,6 @@ def get_apk_url(pkg: str):
     
     pure_build = parse_ver(apk_pure_version)
     combo_build = parse_ver(apk_combo_version)
-    
-    print(f"DEBUG: Pure Build: {pure_build} | Combo Build: {combo_build}")
 
     if pure_build == 0 and combo_build == 0:
         raise ValueError("Critical Error: Could not detect version builds from either source.")
@@ -60,9 +58,19 @@ def get_apkcombo_url(pkg: str) -> (str, str):
     app_name = "blue-archive-jp" if pkg == "com.YostarJP.BlueArchive" else "blue-archive"
     url = APKCOMBO_URL.format(app_name=app_name, pkg=pkg)
     
-    scraper = cloudscraper.create_scraper()
+    scraper = cloudscraper.create_scraper(
+        browser={
+            'browser': 'chrome',
+            'platform': 'windows',
+            'desktop': True
+        }
+    )
+    headers = {
+        'Referer': f'https://apkcombo.com/{app_name}/{pkg}/',
+        'Accept-Language': 'en-US,en;q=0.9'
+    }
     try:
-        response = scraper.get(url, timeout=10)
+        response = scraper.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         file_content = response.text
         
