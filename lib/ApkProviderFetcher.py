@@ -47,8 +47,8 @@ def get_apkpure_url(pkg: str) -> (str, str):
         
         cdn_url = f"https://d.apkpure.com/b/XAPK/{package}?version=latest" if package else None
         
-        # print(f"APKPure Version: {version}")
-        # print(f"APKPure CDN URL: {cdn_url}")
+        print(f"APKPure Version: {version}")
+        print(f"APKPure CDN URL: {cdn_url}")
         
         return version, cdn_url
     except Exception as e:
@@ -81,8 +81,8 @@ def get_apkcombo_url(pkg: str) -> (str, str):
         raw_cdn = cdn_match.group(0) if cdn_match else None
         cdn_url = urllib.parse.unquote(raw_cdn) if raw_cdn else None
         
-        # print(f"APKCombo Version: {version}")
-        # print(f"APKCombo CDN URL: {cdn_url}")
+        print(f"APKCombo Version: {version}")
+        print(f"APKCombo CDN URL: {cdn_url}")
         
         return version, cdn_url
     except Exception as e:
