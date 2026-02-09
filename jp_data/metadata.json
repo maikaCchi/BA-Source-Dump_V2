@@ -1,9 +1,9 @@
 {
-    "ServerInfoDataUrl": "https://yostar-serverinfo.bluearchiveyostar.com/r87_64_30dcxny6w5wxuv2mbijd.json",
-    "ServerInfoVersion": "r87_64_30dcxny6w5wxuv2mbijd",
-    "GameVersion": "1.64.395492",
-    "BuildVersion": "395492",
-    "AddressableVersion": "1.64.r87_hccqioa6gvc4v792u962",
-    "AddressableBuildVersion": "r87_hccqioa6gvc4v792u962",
-    "AddressableUrl": "https://prod-clientpatch.bluearchiveyostar.com/r87_hccqioa6gvc4v792u962"
+    "ServerInfoDataUrl": "https://yostar-serverinfo.bluearchiveyostar.com/r88_65_r974codmsnyeq0u0wmph.json",
+    "ServerInfoVersion": "r88_65_r974codmsnyeq0u0wmph",
+    "GameVersion": "1.65.398852",
+    "BuildVersion": "398852",
+    "AddressableVersion": "1.65.r88_20xc07e1arap9cs1nvk4",
+    "AddressableBuildVersion": "r88_20xc07e1arap9cs1nvk4",
+    "AddressableUrl": "https://prod-clientpatch.bluearchiveyostar.com/r88_20xc07e1arap9cs1nvk4"
 }
