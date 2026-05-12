@@ -6,23 +6,29 @@
     "min_build_version": "1.87.417475",
     "min_build_number": "417475",
     "patch": {
-        "patch_version": 1627,
-        "resource_path": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/81ac02027d404f46/resource-data.json",
+        "patch_version": 1641,
+        "resource_path": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/013b1259132b4809/resource-data.json",
         "bdiff_path": [
             {
-                "1624": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/83cc697ac4bd4303/bdiff-data.json"
+                "1639": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/7450367f53b041b1/bdiff-data.json"
             },
             {
-                "1613": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/ddafc8738580470d/bdiff-data.json"
+                "1627": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/70656b6783de4e5b/bdiff-data.json"
             },
             {
-                "1612": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/1468df26431a4668/bdiff-data.json"
+                "1624": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/38ae1a7de77e47a5/bdiff-data.json"
             },
             {
-                "1611": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/3cb524865d6c45c5/bdiff-data.json"
+                "1613": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/19d6b2335915450f/bdiff-data.json"
             },
             {
-                "1602": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/7e02937a60c9462c/bdiff-data.json"
+                "1612": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/30904cc2de524139/bdiff-data.json"
+            },
+            {
+                "1611": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/60e7b6f8e7e24d33/bdiff-data.json"
+            },
+            {
+                "1602": "https://ba.dn.nexoncdn.co.kr/com.nexon.bluearchive/nxpatch/5102f04b96324fe2/bdiff-data.json"
             }
         ]
     }
